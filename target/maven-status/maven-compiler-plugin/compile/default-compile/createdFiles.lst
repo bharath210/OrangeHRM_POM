@@ -1,0 +1,8 @@
+com\orangehrm\qa\base\TestBase.class
+com\orangehrm\qa\pages\VacenciesPage.class
+com\orangehrm\qa\util\TestUtil.class
+com\orangehrm\qa\pages\RecruitmentPage.class
+com\orangehrm\qa\util\WebEventListener.class
+com\orangehrm\qa\pages\HomePage.class
+com\orangehrm\qa\pages\LoginPage.class
+com\qa\extentreportlistener\ExtentReportListenerNG.class

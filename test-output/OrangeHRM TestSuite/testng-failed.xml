@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [OrangeHRM TestSuite]">
+  <test name="OrangeHrm App Test Cases(failed)">
+    <classes>
+      <class name="com.orangehrm.qa.testcases.RecruitmentPageTest">
+        <methods>
+          <include name="candidateSearchTest"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.orangehrm.qa.testcases.RecruitmentPageTest -->
+    </classes>
+  </test> <!-- OrangeHrm App Test Cases(failed) -->
+</suite> <!-- Failed suite [OrangeHRM TestSuite] -->

@@ -1,0 +1,44 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 14, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 384.761 s <<< FAILURE! - in TestSuite
+clickOnRecruitmentTest(com.orangehrm.qa.testcases.HomePageTest)  Time elapsed: 21.593 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: Candidates
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-2GDR6HM', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [f06da14d-5d08-466f-b316-605e9ac334fc, findElement {using=link text, value=Candidates}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 104.0.2, moz:accessibilityChecks: false, moz:buildID: 20220902153754, moz:debuggerAddress: localhost:65136, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 6288, moz:profile: C:\Users\LENOVO\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65136/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: f06da14d-5d08-466f-b316-605e9ac334fc
+	at com.orangehrm.qa.testcases.HomePageTest.clickOnRecruitmentTest(HomePageTest.java:49)
+
+correctUsernameTest(com.orangehrm.qa.testcases.HomePageTest)  Time elapsed: 0.038 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.orangehrm.qa.testcases.HomePageTest.correctUsernameTest(HomePageTest.java:39)
+
+orangeHrmLogoTest(com.orangehrm.qa.testcases.LoginPageTest)  Time elapsed: 20.149 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //img[@src='/symfony/web/webres_6315bbebe9e877.26918613/themes/default/images/login/logo.png']
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-2GDR6HM', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [db87a152-24f0-41b2-8a21-bd34e4390e2e, findElement {using=xpath, value=//img[@src='/symfony/web/webres_6315bbebe9e877.26918613/themes/default/images/login/logo.png']}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 104.0.2, moz:accessibilityChecks: false, moz:buildID: 20220902153754, moz:debuggerAddress: localhost:55091, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 10184, moz:profile: C:\Users\LENOVO\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:55091/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: db87a152-24f0-41b2-8a21-bd34e4390e2e
+	at com.orangehrm.qa.testcases.LoginPageTest.orangeHrmLogoTest(LoginPageTest.java:33)
+
+selectingCadidatesTest(com.orangehrm.qa.testcases.RecruitmentPageTest)  Time elapsed: 20.152 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+Unable to locate element: //a[contains(text(),'Palasa')]//parent::td[@class='left']//preceding-sibling::td//input
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.4.0', revision: 'e5c75ed026a'
+System info: host: 'DESKTOP-2GDR6HM', ip: '192.168.1.7', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.16.1'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [599b9350-d94d-46be-b983-fa3d8634572f, findElement {using=xpath, value=//a[contains(text(),'Palasa')]//parent::td[@class='left']//preceding-sibling::td//input}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 104.0.2, moz:accessibilityChecks: false, moz:buildID: 20220902153754, moz:debuggerAddress: localhost:65341, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 10.0, moz:processID: 9840, moz:profile: C:\Users\LENOVO\AppData\Loc..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:65341/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: 599b9350-d94d-46be-b983-fa3d8634572f
+	at com.orangehrm.qa.testcases.RecruitmentPageTest.selectingCadidatesTest(RecruitmentPageTest.java:42)
+
